@@ -1,0 +1,1740 @@
+
+[Test_Option/Empty/Exists/Map - 1]
+false
+---
+
+[Test_Option/Empty/Exists/Pointer - 1]
+false
+---
+
+[Test_Option/Empty/Exists/Primitive - 1]
+false
+---
+
+[Test_Option/Empty/Exists/Slice - 1]
+false
+---
+
+[Test_Option/Empty/Exists/Struct - 1]
+false
+---
+
+[Test_Option/Empty/MarshalJSON - 1]
+{"primitive":null,"map":null,"struct":null,"slice":null,"pointer":null}
+---
+
+[Test_Option/Empty/MustUnwrap/Map - 1]
+null
+---
+
+[Test_Option/Empty/MustUnwrap/Pointer - 1]
+null
+---
+
+[Test_Option/Empty/MustUnwrap/Primitive - 1]
+
+---
+
+[Test_Option/Empty/MustUnwrap/Slice - 1]
+null
+---
+
+[Test_Option/Empty/MustUnwrap/Struct - 1]
+{
+ "Make": "",
+ "Model": ""
+}
+---
+
+[Test_Option/Empty/String/Map - 1]
+<empty>
+---
+
+[Test_Option/Empty/String/Primitive - 1]
+<empty>
+---
+
+[Test_Option/Empty/String/Slice - 1]
+<empty>
+---
+
+[Test_Option/Empty/String/Struct - 1]
+<empty>
+---
+
+[Test_Option/Empty/Unwrap/Map - 1]
+null
+---
+
+[Test_Option/Empty/Unwrap/Pointer - 1]
+null
+---
+
+[Test_Option/Empty/Unwrap/Primitive - 1]
+
+---
+
+[Test_Option/Empty/Unwrap/Slice - 1]
+null
+---
+
+[Test_Option/Empty/Unwrap/Struct - 1]
+{
+ "Make": "",
+ "Model": ""
+}
+---
+
+[Test_Option/Empty/UnwrapDefault/Map - 1]
+{
+ "make": "Ford",
+ "model": "Focus"
+}
+---
+
+[Test_Option/Empty/UnwrapDefault/Pointer - 1]
+true
+---
+
+[Test_Option/Empty/UnwrapDefault/Primitive - 1]
+default
+---
+
+[Test_Option/Empty/UnwrapDefault/Slice - 1]
+[
+ 9,
+ 8,
+ 7
+]
+---
+
+[Test_Option/Empty/UnwrapDefault/Struct - 1]
+{
+ "Make": "Audi",
+ "Model": "A5"
+}
+---
+
+[Test_Option/Map_empty/Exists/Map - 1]
+true
+---
+
+[Test_Option/Map_empty/Exists/Pointer - 1]
+false
+---
+
+[Test_Option/Map_empty/Exists/Primitive - 1]
+false
+---
+
+[Test_Option/Map_empty/Exists/Slice - 1]
+false
+---
+
+[Test_Option/Map_empty/Exists/Struct - 1]
+false
+---
+
+[Test_Option/Map_empty/MarshalJSON - 1]
+{"primitive":null,"map":{},"struct":null,"slice":null,"pointer":null}
+---
+
+[Test_Option/Map_empty/MustUnwrap/Map - 1]
+{}
+---
+
+[Test_Option/Map_empty/MustUnwrap/Pointer - 1]
+null
+---
+
+[Test_Option/Map_empty/MustUnwrap/Primitive - 1]
+
+---
+
+[Test_Option/Map_empty/MustUnwrap/Slice - 1]
+null
+---
+
+[Test_Option/Map_empty/MustUnwrap/Struct - 1]
+{
+ "Make": "",
+ "Model": ""
+}
+---
+
+[Test_Option/Map_empty/String/Map - 1]
+map[]
+---
+
+[Test_Option/Map_empty/String/Primitive - 1]
+<empty>
+---
+
+[Test_Option/Map_empty/String/Slice - 1]
+<empty>
+---
+
+[Test_Option/Map_empty/String/Struct - 1]
+<empty>
+---
+
+[Test_Option/Map_empty/Unwrap/Map - 1]
+{}
+---
+
+[Test_Option/Map_empty/Unwrap/Pointer - 1]
+null
+---
+
+[Test_Option/Map_empty/Unwrap/Primitive - 1]
+
+---
+
+[Test_Option/Map_empty/Unwrap/Slice - 1]
+null
+---
+
+[Test_Option/Map_empty/Unwrap/Struct - 1]
+{
+ "Make": "",
+ "Model": ""
+}
+---
+
+[Test_Option/Map_empty/UnwrapDefault/Map - 1]
+{}
+---
+
+[Test_Option/Map_empty/UnwrapDefault/Pointer - 1]
+true
+---
+
+[Test_Option/Map_empty/UnwrapDefault/Primitive - 1]
+default
+---
+
+[Test_Option/Map_empty/UnwrapDefault/Slice - 1]
+[
+ 9,
+ 8,
+ 7
+]
+---
+
+[Test_Option/Map_empty/UnwrapDefault/Struct - 1]
+{
+ "Make": "Audi",
+ "Model": "A5"
+}
+---
+
+[Test_Option/Map_full/Exists/Map - 1]
+true
+---
+
+[Test_Option/Map_full/Exists/Pointer - 1]
+false
+---
+
+[Test_Option/Map_full/Exists/Primitive - 1]
+false
+---
+
+[Test_Option/Map_full/Exists/Slice - 1]
+false
+---
+
+[Test_Option/Map_full/Exists/Struct - 1]
+false
+---
+
+[Test_Option/Map_full/MarshalJSON - 1]
+{"primitive":null,"map":{"make":"Toyota","model":"Hilux"},"struct":null,"slice":null,"pointer":null}
+---
+
+[Test_Option/Map_full/MustUnwrap/Map - 1]
+{
+ "make": "Toyota",
+ "model": "Hilux"
+}
+---
+
+[Test_Option/Map_full/MustUnwrap/Pointer - 1]
+null
+---
+
+[Test_Option/Map_full/MustUnwrap/Primitive - 1]
+
+---
+
+[Test_Option/Map_full/MustUnwrap/Slice - 1]
+null
+---
+
+[Test_Option/Map_full/MustUnwrap/Struct - 1]
+{
+ "Make": "",
+ "Model": ""
+}
+---
+
+[Test_Option/Map_full/String/Map - 1]
+map[make:Toyota model:Hilux]
+---
+
+[Test_Option/Map_full/String/Primitive - 1]
+<empty>
+---
+
+[Test_Option/Map_full/String/Slice - 1]
+<empty>
+---
+
+[Test_Option/Map_full/String/Struct - 1]
+<empty>
+---
+
+[Test_Option/Map_full/Unwrap/Map - 1]
+{
+ "make": "Toyota",
+ "model": "Hilux"
+}
+---
+
+[Test_Option/Map_full/Unwrap/Pointer - 1]
+null
+---
+
+[Test_Option/Map_full/Unwrap/Primitive - 1]
+
+---
+
+[Test_Option/Map_full/Unwrap/Slice - 1]
+null
+---
+
+[Test_Option/Map_full/Unwrap/Struct - 1]
+{
+ "Make": "",
+ "Model": ""
+}
+---
+
+[Test_Option/Map_full/UnwrapDefault/Map - 1]
+{
+ "make": "Toyota",
+ "model": "Hilux"
+}
+---
+
+[Test_Option/Map_full/UnwrapDefault/Pointer - 1]
+true
+---
+
+[Test_Option/Map_full/UnwrapDefault/Primitive - 1]
+default
+---
+
+[Test_Option/Map_full/UnwrapDefault/Slice - 1]
+[
+ 9,
+ 8,
+ 7
+]
+---
+
+[Test_Option/Map_full/UnwrapDefault/Struct - 1]
+{
+ "Make": "Audi",
+ "Model": "A5"
+}
+---
+
+[Test_Option/Map_null/Exists/Map - 1]
+true
+---
+
+[Test_Option/Map_null/Exists/Pointer - 1]
+false
+---
+
+[Test_Option/Map_null/Exists/Primitive - 1]
+false
+---
+
+[Test_Option/Map_null/Exists/Slice - 1]
+false
+---
+
+[Test_Option/Map_null/Exists/Struct - 1]
+false
+---
+
+[Test_Option/Map_null/MarshalJSON - 1]
+{"primitive":null,"map":null,"struct":null,"slice":null,"pointer":null}
+---
+
+[Test_Option/Map_null/MustUnwrap/Map - 1]
+null
+---
+
+[Test_Option/Map_null/MustUnwrap/Pointer - 1]
+null
+---
+
+[Test_Option/Map_null/MustUnwrap/Primitive - 1]
+
+---
+
+[Test_Option/Map_null/MustUnwrap/Slice - 1]
+null
+---
+
+[Test_Option/Map_null/MustUnwrap/Struct - 1]
+{
+ "Make": "",
+ "Model": ""
+}
+---
+
+[Test_Option/Map_null/String/Map - 1]
+map[]
+---
+
+[Test_Option/Map_null/String/Primitive - 1]
+<empty>
+---
+
+[Test_Option/Map_null/String/Slice - 1]
+<empty>
+---
+
+[Test_Option/Map_null/String/Struct - 1]
+<empty>
+---
+
+[Test_Option/Map_null/Unwrap/Map - 1]
+null
+---
+
+[Test_Option/Map_null/Unwrap/Pointer - 1]
+null
+---
+
+[Test_Option/Map_null/Unwrap/Primitive - 1]
+
+---
+
+[Test_Option/Map_null/Unwrap/Slice - 1]
+null
+---
+
+[Test_Option/Map_null/Unwrap/Struct - 1]
+{
+ "Make": "",
+ "Model": ""
+}
+---
+
+[Test_Option/Map_null/UnwrapDefault/Map - 1]
+null
+---
+
+[Test_Option/Map_null/UnwrapDefault/Pointer - 1]
+true
+---
+
+[Test_Option/Map_null/UnwrapDefault/Primitive - 1]
+default
+---
+
+[Test_Option/Map_null/UnwrapDefault/Slice - 1]
+[
+ 9,
+ 8,
+ 7
+]
+---
+
+[Test_Option/Map_null/UnwrapDefault/Struct - 1]
+{
+ "Make": "Audi",
+ "Model": "A5"
+}
+---
+
+[Test_Option/Pointer_full/Exists/Map - 1]
+false
+---
+
+[Test_Option/Pointer_full/Exists/Pointer - 1]
+true
+---
+
+[Test_Option/Pointer_full/Exists/Primitive - 1]
+false
+---
+
+[Test_Option/Pointer_full/Exists/Slice - 1]
+false
+---
+
+[Test_Option/Pointer_full/Exists/Struct - 1]
+false
+---
+
+[Test_Option/Pointer_full/MarshalJSON - 1]
+{"primitive":null,"map":null,"struct":null,"slice":null,"pointer":true}
+---
+
+[Test_Option/Pointer_full/MustUnwrap/Map - 1]
+null
+---
+
+[Test_Option/Pointer_full/MustUnwrap/Pointer - 1]
+true
+---
+
+[Test_Option/Pointer_full/MustUnwrap/Primitive - 1]
+
+---
+
+[Test_Option/Pointer_full/MustUnwrap/Slice - 1]
+null
+---
+
+[Test_Option/Pointer_full/MustUnwrap/Struct - 1]
+{
+ "Make": "",
+ "Model": ""
+}
+---
+
+[Test_Option/Pointer_full/String/Map - 1]
+<empty>
+---
+
+[Test_Option/Pointer_full/String/Primitive - 1]
+<empty>
+---
+
+[Test_Option/Pointer_full/String/Slice - 1]
+<empty>
+---
+
+[Test_Option/Pointer_full/String/Struct - 1]
+<empty>
+---
+
+[Test_Option/Pointer_full/Unwrap/Map - 1]
+null
+---
+
+[Test_Option/Pointer_full/Unwrap/Pointer - 1]
+true
+---
+
+[Test_Option/Pointer_full/Unwrap/Primitive - 1]
+
+---
+
+[Test_Option/Pointer_full/Unwrap/Slice - 1]
+null
+---
+
+[Test_Option/Pointer_full/Unwrap/Struct - 1]
+{
+ "Make": "",
+ "Model": ""
+}
+---
+
+[Test_Option/Pointer_full/UnwrapDefault/Map - 1]
+{
+ "make": "Ford",
+ "model": "Focus"
+}
+---
+
+[Test_Option/Pointer_full/UnwrapDefault/Pointer - 1]
+true
+---
+
+[Test_Option/Pointer_full/UnwrapDefault/Primitive - 1]
+default
+---
+
+[Test_Option/Pointer_full/UnwrapDefault/Slice - 1]
+[
+ 9,
+ 8,
+ 7
+]
+---
+
+[Test_Option/Pointer_full/UnwrapDefault/Struct - 1]
+{
+ "Make": "Audi",
+ "Model": "A5"
+}
+---
+
+[Test_Option/Pointer_null/Exists/Map - 1]
+false
+---
+
+[Test_Option/Pointer_null/Exists/Pointer - 1]
+true
+---
+
+[Test_Option/Pointer_null/Exists/Primitive - 1]
+false
+---
+
+[Test_Option/Pointer_null/Exists/Slice - 1]
+false
+---
+
+[Test_Option/Pointer_null/Exists/Struct - 1]
+false
+---
+
+[Test_Option/Pointer_null/MarshalJSON - 1]
+{"primitive":null,"map":null,"struct":null,"slice":null,"pointer":null}
+---
+
+[Test_Option/Pointer_null/MustUnwrap/Map - 1]
+null
+---
+
+[Test_Option/Pointer_null/MustUnwrap/Pointer - 1]
+null
+---
+
+[Test_Option/Pointer_null/MustUnwrap/Primitive - 1]
+
+---
+
+[Test_Option/Pointer_null/MustUnwrap/Slice - 1]
+null
+---
+
+[Test_Option/Pointer_null/MustUnwrap/Struct - 1]
+{
+ "Make": "",
+ "Model": ""
+}
+---
+
+[Test_Option/Pointer_null/String/Map - 1]
+<empty>
+---
+
+[Test_Option/Pointer_null/String/Primitive - 1]
+<empty>
+---
+
+[Test_Option/Pointer_null/String/Slice - 1]
+<empty>
+---
+
+[Test_Option/Pointer_null/String/Struct - 1]
+<empty>
+---
+
+[Test_Option/Pointer_null/Unwrap/Map - 1]
+null
+---
+
+[Test_Option/Pointer_null/Unwrap/Pointer - 1]
+null
+---
+
+[Test_Option/Pointer_null/Unwrap/Primitive - 1]
+
+---
+
+[Test_Option/Pointer_null/Unwrap/Slice - 1]
+null
+---
+
+[Test_Option/Pointer_null/Unwrap/Struct - 1]
+{
+ "Make": "",
+ "Model": ""
+}
+---
+
+[Test_Option/Pointer_null/UnwrapDefault/Map - 1]
+{
+ "make": "Ford",
+ "model": "Focus"
+}
+---
+
+[Test_Option/Pointer_null/UnwrapDefault/Pointer - 1]
+null
+---
+
+[Test_Option/Pointer_null/UnwrapDefault/Primitive - 1]
+default
+---
+
+[Test_Option/Pointer_null/UnwrapDefault/Slice - 1]
+[
+ 9,
+ 8,
+ 7
+]
+---
+
+[Test_Option/Pointer_null/UnwrapDefault/Struct - 1]
+{
+ "Make": "Audi",
+ "Model": "A5"
+}
+---
+
+[Test_Option/Primitive/Exists/Map - 1]
+false
+---
+
+[Test_Option/Primitive/Exists/Pointer - 1]
+false
+---
+
+[Test_Option/Primitive/Exists/Primitive - 1]
+true
+---
+
+[Test_Option/Primitive/Exists/Slice - 1]
+false
+---
+
+[Test_Option/Primitive/Exists/Struct - 1]
+false
+---
+
+[Test_Option/Primitive/MarshalJSON - 1]
+{"primitive":"hello world","map":null,"struct":null,"slice":null,"pointer":null}
+---
+
+[Test_Option/Primitive/MustUnwrap/Map - 1]
+null
+---
+
+[Test_Option/Primitive/MustUnwrap/Pointer - 1]
+null
+---
+
+[Test_Option/Primitive/MustUnwrap/Primitive - 1]
+hello world
+---
+
+[Test_Option/Primitive/MustUnwrap/Slice - 1]
+null
+---
+
+[Test_Option/Primitive/MustUnwrap/Struct - 1]
+{
+ "Make": "",
+ "Model": ""
+}
+---
+
+[Test_Option/Primitive/String/Map - 1]
+<empty>
+---
+
+[Test_Option/Primitive/String/Primitive - 1]
+hello world
+---
+
+[Test_Option/Primitive/String/Slice - 1]
+<empty>
+---
+
+[Test_Option/Primitive/String/Struct - 1]
+<empty>
+---
+
+[Test_Option/Primitive/Unwrap/Map - 1]
+null
+---
+
+[Test_Option/Primitive/Unwrap/Pointer - 1]
+null
+---
+
+[Test_Option/Primitive/Unwrap/Primitive - 1]
+hello world
+---
+
+[Test_Option/Primitive/Unwrap/Slice - 1]
+null
+---
+
+[Test_Option/Primitive/Unwrap/Struct - 1]
+{
+ "Make": "",
+ "Model": ""
+}
+---
+
+[Test_Option/Primitive/UnwrapDefault/Map - 1]
+{
+ "make": "Ford",
+ "model": "Focus"
+}
+---
+
+[Test_Option/Primitive/UnwrapDefault/Pointer - 1]
+true
+---
+
+[Test_Option/Primitive/UnwrapDefault/Primitive - 1]
+hello world
+---
+
+[Test_Option/Primitive/UnwrapDefault/Slice - 1]
+[
+ 9,
+ 8,
+ 7
+]
+---
+
+[Test_Option/Primitive/UnwrapDefault/Struct - 1]
+{
+ "Make": "Audi",
+ "Model": "A5"
+}
+---
+
+[Test_Option/Primitive_empty/Exists/Map - 1]
+false
+---
+
+[Test_Option/Primitive_empty/Exists/Pointer - 1]
+false
+---
+
+[Test_Option/Primitive_empty/Exists/Primitive - 1]
+true
+---
+
+[Test_Option/Primitive_empty/Exists/Slice - 1]
+false
+---
+
+[Test_Option/Primitive_empty/Exists/Struct - 1]
+false
+---
+
+[Test_Option/Primitive_empty/MarshalJSON - 1]
+{"primitive":"","map":null,"struct":null,"slice":null,"pointer":null}
+---
+
+[Test_Option/Primitive_empty/MustUnwrap/Map - 1]
+null
+---
+
+[Test_Option/Primitive_empty/MustUnwrap/Pointer - 1]
+null
+---
+
+[Test_Option/Primitive_empty/MustUnwrap/Primitive - 1]
+
+---
+
+[Test_Option/Primitive_empty/MustUnwrap/Slice - 1]
+null
+---
+
+[Test_Option/Primitive_empty/MustUnwrap/Struct - 1]
+{
+ "Make": "",
+ "Model": ""
+}
+---
+
+[Test_Option/Primitive_empty/String/Map - 1]
+<empty>
+---
+
+[Test_Option/Primitive_empty/String/Primitive - 1]
+
+---
+
+[Test_Option/Primitive_empty/String/Slice - 1]
+<empty>
+---
+
+[Test_Option/Primitive_empty/String/Struct - 1]
+<empty>
+---
+
+[Test_Option/Primitive_empty/Unwrap/Map - 1]
+null
+---
+
+[Test_Option/Primitive_empty/Unwrap/Pointer - 1]
+null
+---
+
+[Test_Option/Primitive_empty/Unwrap/Primitive - 1]
+
+---
+
+[Test_Option/Primitive_empty/Unwrap/Slice - 1]
+null
+---
+
+[Test_Option/Primitive_empty/Unwrap/Struct - 1]
+{
+ "Make": "",
+ "Model": ""
+}
+---
+
+[Test_Option/Primitive_empty/UnwrapDefault/Map - 1]
+{
+ "make": "Ford",
+ "model": "Focus"
+}
+---
+
+[Test_Option/Primitive_empty/UnwrapDefault/Pointer - 1]
+true
+---
+
+[Test_Option/Primitive_empty/UnwrapDefault/Primitive - 1]
+
+---
+
+[Test_Option/Primitive_empty/UnwrapDefault/Slice - 1]
+[
+ 9,
+ 8,
+ 7
+]
+---
+
+[Test_Option/Primitive_empty/UnwrapDefault/Struct - 1]
+{
+ "Make": "Audi",
+ "Model": "A5"
+}
+---
+
+[Test_Option/Primitive_null/Exists/Map - 1]
+false
+---
+
+[Test_Option/Primitive_null/Exists/Pointer - 1]
+false
+---
+
+[Test_Option/Primitive_null/Exists/Primitive - 1]
+false
+---
+
+[Test_Option/Primitive_null/Exists/Slice - 1]
+false
+---
+
+[Test_Option/Primitive_null/Exists/Struct - 1]
+false
+---
+
+[Test_Option/Primitive_null/MarshalJSON - 1]
+{"primitive":null,"map":null,"struct":null,"slice":null,"pointer":null}
+---
+
+[Test_Option/Primitive_null/MustUnwrap/Map - 1]
+null
+---
+
+[Test_Option/Primitive_null/MustUnwrap/Pointer - 1]
+null
+---
+
+[Test_Option/Primitive_null/MustUnwrap/Primitive - 1]
+
+---
+
+[Test_Option/Primitive_null/MustUnwrap/Slice - 1]
+null
+---
+
+[Test_Option/Primitive_null/MustUnwrap/Struct - 1]
+{
+ "Make": "",
+ "Model": ""
+}
+---
+
+[Test_Option/Primitive_null/String/Map - 1]
+<empty>
+---
+
+[Test_Option/Primitive_null/String/Primitive - 1]
+<empty>
+---
+
+[Test_Option/Primitive_null/String/Slice - 1]
+<empty>
+---
+
+[Test_Option/Primitive_null/String/Struct - 1]
+<empty>
+---
+
+[Test_Option/Primitive_null/Unwrap/Map - 1]
+null
+---
+
+[Test_Option/Primitive_null/Unwrap/Pointer - 1]
+null
+---
+
+[Test_Option/Primitive_null/Unwrap/Primitive - 1]
+
+---
+
+[Test_Option/Primitive_null/Unwrap/Slice - 1]
+null
+---
+
+[Test_Option/Primitive_null/Unwrap/Struct - 1]
+{
+ "Make": "",
+ "Model": ""
+}
+---
+
+[Test_Option/Primitive_null/UnwrapDefault/Map - 1]
+{
+ "make": "Ford",
+ "model": "Focus"
+}
+---
+
+[Test_Option/Primitive_null/UnwrapDefault/Pointer - 1]
+true
+---
+
+[Test_Option/Primitive_null/UnwrapDefault/Primitive - 1]
+default
+---
+
+[Test_Option/Primitive_null/UnwrapDefault/Slice - 1]
+[
+ 9,
+ 8,
+ 7
+]
+---
+
+[Test_Option/Primitive_null/UnwrapDefault/Struct - 1]
+{
+ "Make": "Audi",
+ "Model": "A5"
+}
+---
+
+[Test_Option/Slice_empty/Exists/Map - 1]
+false
+---
+
+[Test_Option/Slice_empty/Exists/Pointer - 1]
+false
+---
+
+[Test_Option/Slice_empty/Exists/Primitive - 1]
+false
+---
+
+[Test_Option/Slice_empty/Exists/Slice - 1]
+true
+---
+
+[Test_Option/Slice_empty/Exists/Struct - 1]
+false
+---
+
+[Test_Option/Slice_empty/MarshalJSON - 1]
+{"primitive":null,"map":null,"struct":null,"slice":[],"pointer":null}
+---
+
+[Test_Option/Slice_empty/MustUnwrap/Map - 1]
+null
+---
+
+[Test_Option/Slice_empty/MustUnwrap/Pointer - 1]
+null
+---
+
+[Test_Option/Slice_empty/MustUnwrap/Primitive - 1]
+
+---
+
+[Test_Option/Slice_empty/MustUnwrap/Slice - 1]
+[]
+---
+
+[Test_Option/Slice_empty/MustUnwrap/Struct - 1]
+{
+ "Make": "",
+ "Model": ""
+}
+---
+
+[Test_Option/Slice_empty/String/Map - 1]
+<empty>
+---
+
+[Test_Option/Slice_empty/String/Primitive - 1]
+<empty>
+---
+
+[Test_Option/Slice_empty/String/Slice - 1]
+[]
+---
+
+[Test_Option/Slice_empty/String/Struct - 1]
+<empty>
+---
+
+[Test_Option/Slice_empty/Unwrap/Map - 1]
+null
+---
+
+[Test_Option/Slice_empty/Unwrap/Pointer - 1]
+null
+---
+
+[Test_Option/Slice_empty/Unwrap/Primitive - 1]
+
+---
+
+[Test_Option/Slice_empty/Unwrap/Slice - 1]
+[]
+---
+
+[Test_Option/Slice_empty/Unwrap/Struct - 1]
+{
+ "Make": "",
+ "Model": ""
+}
+---
+
+[Test_Option/Slice_empty/UnwrapDefault/Map - 1]
+{
+ "make": "Ford",
+ "model": "Focus"
+}
+---
+
+[Test_Option/Slice_empty/UnwrapDefault/Pointer - 1]
+true
+---
+
+[Test_Option/Slice_empty/UnwrapDefault/Primitive - 1]
+default
+---
+
+[Test_Option/Slice_empty/UnwrapDefault/Slice - 1]
+[]
+---
+
+[Test_Option/Slice_empty/UnwrapDefault/Struct - 1]
+{
+ "Make": "Audi",
+ "Model": "A5"
+}
+---
+
+[Test_Option/Slice_full/Exists/Map - 1]
+false
+---
+
+[Test_Option/Slice_full/Exists/Pointer - 1]
+false
+---
+
+[Test_Option/Slice_full/Exists/Primitive - 1]
+false
+---
+
+[Test_Option/Slice_full/Exists/Slice - 1]
+true
+---
+
+[Test_Option/Slice_full/Exists/Struct - 1]
+false
+---
+
+[Test_Option/Slice_full/MarshalJSON - 1]
+{"primitive":null,"map":null,"struct":null,"slice":[1,2,3],"pointer":null}
+---
+
+[Test_Option/Slice_full/MustUnwrap/Map - 1]
+null
+---
+
+[Test_Option/Slice_full/MustUnwrap/Pointer - 1]
+null
+---
+
+[Test_Option/Slice_full/MustUnwrap/Primitive - 1]
+
+---
+
+[Test_Option/Slice_full/MustUnwrap/Slice - 1]
+[
+ 1,
+ 2,
+ 3
+]
+---
+
+[Test_Option/Slice_full/MustUnwrap/Struct - 1]
+{
+ "Make": "",
+ "Model": ""
+}
+---
+
+[Test_Option/Slice_full/String/Map - 1]
+<empty>
+---
+
+[Test_Option/Slice_full/String/Primitive - 1]
+<empty>
+---
+
+[Test_Option/Slice_full/String/Slice - 1]
+[1 2 3]
+---
+
+[Test_Option/Slice_full/String/Struct - 1]
+<empty>
+---
+
+[Test_Option/Slice_full/Unwrap/Map - 1]
+null
+---
+
+[Test_Option/Slice_full/Unwrap/Pointer - 1]
+null
+---
+
+[Test_Option/Slice_full/Unwrap/Primitive - 1]
+
+---
+
+[Test_Option/Slice_full/Unwrap/Slice - 1]
+[
+ 1,
+ 2,
+ 3
+]
+---
+
+[Test_Option/Slice_full/Unwrap/Struct - 1]
+{
+ "Make": "",
+ "Model": ""
+}
+---
+
+[Test_Option/Slice_full/UnwrapDefault/Map - 1]
+{
+ "make": "Ford",
+ "model": "Focus"
+}
+---
+
+[Test_Option/Slice_full/UnwrapDefault/Pointer - 1]
+true
+---
+
+[Test_Option/Slice_full/UnwrapDefault/Primitive - 1]
+default
+---
+
+[Test_Option/Slice_full/UnwrapDefault/Slice - 1]
+[
+ 1,
+ 2,
+ 3
+]
+---
+
+[Test_Option/Slice_full/UnwrapDefault/Struct - 1]
+{
+ "Make": "Audi",
+ "Model": "A5"
+}
+---
+
+[Test_Option/Slice_null/Exists/Map - 1]
+false
+---
+
+[Test_Option/Slice_null/Exists/Pointer - 1]
+false
+---
+
+[Test_Option/Slice_null/Exists/Primitive - 1]
+false
+---
+
+[Test_Option/Slice_null/Exists/Slice - 1]
+true
+---
+
+[Test_Option/Slice_null/Exists/Struct - 1]
+false
+---
+
+[Test_Option/Slice_null/MarshalJSON - 1]
+{"primitive":null,"map":null,"struct":null,"slice":null,"pointer":null}
+---
+
+[Test_Option/Slice_null/MustUnwrap/Map - 1]
+null
+---
+
+[Test_Option/Slice_null/MustUnwrap/Pointer - 1]
+null
+---
+
+[Test_Option/Slice_null/MustUnwrap/Primitive - 1]
+
+---
+
+[Test_Option/Slice_null/MustUnwrap/Slice - 1]
+null
+---
+
+[Test_Option/Slice_null/MustUnwrap/Struct - 1]
+{
+ "Make": "",
+ "Model": ""
+}
+---
+
+[Test_Option/Slice_null/String/Map - 1]
+<empty>
+---
+
+[Test_Option/Slice_null/String/Primitive - 1]
+<empty>
+---
+
+[Test_Option/Slice_null/String/Slice - 1]
+[]
+---
+
+[Test_Option/Slice_null/String/Struct - 1]
+<empty>
+---
+
+[Test_Option/Slice_null/Unwrap/Map - 1]
+null
+---
+
+[Test_Option/Slice_null/Unwrap/Pointer - 1]
+null
+---
+
+[Test_Option/Slice_null/Unwrap/Primitive - 1]
+
+---
+
+[Test_Option/Slice_null/Unwrap/Slice - 1]
+null
+---
+
+[Test_Option/Slice_null/Unwrap/Struct - 1]
+{
+ "Make": "",
+ "Model": ""
+}
+---
+
+[Test_Option/Slice_null/UnwrapDefault/Map - 1]
+{
+ "make": "Ford",
+ "model": "Focus"
+}
+---
+
+[Test_Option/Slice_null/UnwrapDefault/Pointer - 1]
+true
+---
+
+[Test_Option/Slice_null/UnwrapDefault/Primitive - 1]
+default
+---
+
+[Test_Option/Slice_null/UnwrapDefault/Slice - 1]
+null
+---
+
+[Test_Option/Slice_null/UnwrapDefault/Struct - 1]
+{
+ "Make": "Audi",
+ "Model": "A5"
+}
+---
+
+[Test_Option/Struct_empty/Exists/Map - 1]
+false
+---
+
+[Test_Option/Struct_empty/Exists/Pointer - 1]
+false
+---
+
+[Test_Option/Struct_empty/Exists/Primitive - 1]
+false
+---
+
+[Test_Option/Struct_empty/Exists/Slice - 1]
+false
+---
+
+[Test_Option/Struct_empty/Exists/Struct - 1]
+true
+---
+
+[Test_Option/Struct_empty/MarshalJSON - 1]
+{"primitive":null,"map":null,"struct":{"Make":"","Model":""},"slice":null,"pointer":null}
+---
+
+[Test_Option/Struct_empty/MustUnwrap/Map - 1]
+null
+---
+
+[Test_Option/Struct_empty/MustUnwrap/Pointer - 1]
+null
+---
+
+[Test_Option/Struct_empty/MustUnwrap/Primitive - 1]
+
+---
+
+[Test_Option/Struct_empty/MustUnwrap/Slice - 1]
+null
+---
+
+[Test_Option/Struct_empty/MustUnwrap/Struct - 1]
+{
+ "Make": "",
+ "Model": ""
+}
+---
+
+[Test_Option/Struct_empty/String/Map - 1]
+<empty>
+---
+
+[Test_Option/Struct_empty/String/Primitive - 1]
+<empty>
+---
+
+[Test_Option/Struct_empty/String/Slice - 1]
+<empty>
+---
+
+[Test_Option/Struct_empty/String/Struct - 1]
+{ }
+---
+
+[Test_Option/Struct_empty/Unwrap/Map - 1]
+null
+---
+
+[Test_Option/Struct_empty/Unwrap/Pointer - 1]
+null
+---
+
+[Test_Option/Struct_empty/Unwrap/Primitive - 1]
+
+---
+
+[Test_Option/Struct_empty/Unwrap/Slice - 1]
+null
+---
+
+[Test_Option/Struct_empty/Unwrap/Struct - 1]
+{
+ "Make": "",
+ "Model": ""
+}
+---
+
+[Test_Option/Struct_empty/UnwrapDefault/Map - 1]
+{
+ "make": "Ford",
+ "model": "Focus"
+}
+---
+
+[Test_Option/Struct_empty/UnwrapDefault/Pointer - 1]
+true
+---
+
+[Test_Option/Struct_empty/UnwrapDefault/Primitive - 1]
+default
+---
+
+[Test_Option/Struct_empty/UnwrapDefault/Slice - 1]
+[
+ 9,
+ 8,
+ 7
+]
+---
+
+[Test_Option/Struct_empty/UnwrapDefault/Struct - 1]
+{
+ "Make": "",
+ "Model": ""
+}
+---
+
+[Test_Option/Struct_full/Exists/Map - 1]
+false
+---
+
+[Test_Option/Struct_full/Exists/Pointer - 1]
+false
+---
+
+[Test_Option/Struct_full/Exists/Primitive - 1]
+false
+---
+
+[Test_Option/Struct_full/Exists/Slice - 1]
+false
+---
+
+[Test_Option/Struct_full/Exists/Struct - 1]
+true
+---
+
+[Test_Option/Struct_full/MarshalJSON - 1]
+{"primitive":null,"map":null,"struct":{"Make":"Toyota","Model":"Hilux"},"slice":null,"pointer":null}
+---
+
+[Test_Option/Struct_full/MustUnwrap/Map - 1]
+null
+---
+
+[Test_Option/Struct_full/MustUnwrap/Pointer - 1]
+null
+---
+
+[Test_Option/Struct_full/MustUnwrap/Primitive - 1]
+
+---
+
+[Test_Option/Struct_full/MustUnwrap/Slice - 1]
+null
+---
+
+[Test_Option/Struct_full/MustUnwrap/Struct - 1]
+{
+ "Make": "Toyota",
+ "Model": "Hilux"
+}
+---
+
+[Test_Option/Struct_full/String/Map - 1]
+<empty>
+---
+
+[Test_Option/Struct_full/String/Primitive - 1]
+<empty>
+---
+
+[Test_Option/Struct_full/String/Slice - 1]
+<empty>
+---
+
+[Test_Option/Struct_full/String/Struct - 1]
+{Toyota Hilux}
+---
+
+[Test_Option/Struct_full/Unwrap/Map - 1]
+null
+---
+
+[Test_Option/Struct_full/Unwrap/Pointer - 1]
+null
+---
+
+[Test_Option/Struct_full/Unwrap/Primitive - 1]
+
+---
+
+[Test_Option/Struct_full/Unwrap/Slice - 1]
+null
+---
+
+[Test_Option/Struct_full/Unwrap/Struct - 1]
+{
+ "Make": "Toyota",
+ "Model": "Hilux"
+}
+---
+
+[Test_Option/Struct_full/UnwrapDefault/Map - 1]
+{
+ "make": "Ford",
+ "model": "Focus"
+}
+---
+
+[Test_Option/Struct_full/UnwrapDefault/Pointer - 1]
+true
+---
+
+[Test_Option/Struct_full/UnwrapDefault/Primitive - 1]
+default
+---
+
+[Test_Option/Struct_full/UnwrapDefault/Slice - 1]
+[
+ 9,
+ 8,
+ 7
+]
+---
+
+[Test_Option/Struct_full/UnwrapDefault/Struct - 1]
+{
+ "Make": "Toyota",
+ "Model": "Hilux"
+}
+---
+
+[Test_Option/Struct_null/Exists/Map - 1]
+false
+---
+
+[Test_Option/Struct_null/Exists/Pointer - 1]
+false
+---
+
+[Test_Option/Struct_null/Exists/Primitive - 1]
+false
+---
+
+[Test_Option/Struct_null/Exists/Slice - 1]
+false
+---
+
+[Test_Option/Struct_null/Exists/Struct - 1]
+false
+---
+
+[Test_Option/Struct_null/MarshalJSON - 1]
+{"primitive":null,"map":null,"struct":null,"slice":null,"pointer":null}
+---
+
+[Test_Option/Struct_null/MustUnwrap/Map - 1]
+null
+---
+
+[Test_Option/Struct_null/MustUnwrap/Pointer - 1]
+null
+---
+
+[Test_Option/Struct_null/MustUnwrap/Primitive - 1]
+
+---
+
+[Test_Option/Struct_null/MustUnwrap/Slice - 1]
+null
+---
+
+[Test_Option/Struct_null/MustUnwrap/Struct - 1]
+{
+ "Make": "",
+ "Model": ""
+}
+---
+
+[Test_Option/Struct_null/String/Map - 1]
+<empty>
+---
+
+[Test_Option/Struct_null/String/Primitive - 1]
+<empty>
+---
+
+[Test_Option/Struct_null/String/Slice - 1]
+<empty>
+---
+
+[Test_Option/Struct_null/String/Struct - 1]
+<empty>
+---
+
+[Test_Option/Struct_null/Unwrap/Map - 1]
+null
+---
+
+[Test_Option/Struct_null/Unwrap/Pointer - 1]
+null
+---
+
+[Test_Option/Struct_null/Unwrap/Primitive - 1]
+
+---
+
+[Test_Option/Struct_null/Unwrap/Slice - 1]
+null
+---
+
+[Test_Option/Struct_null/Unwrap/Struct - 1]
+{
+ "Make": "",
+ "Model": ""
+}
+---
+
+[Test_Option/Struct_null/UnwrapDefault/Map - 1]
+{
+ "make": "Ford",
+ "model": "Focus"
+}
+---
+
+[Test_Option/Struct_null/UnwrapDefault/Pointer - 1]
+true
+---
+
+[Test_Option/Struct_null/UnwrapDefault/Primitive - 1]
+default
+---
+
+[Test_Option/Struct_null/UnwrapDefault/Slice - 1]
+[
+ 9,
+ 8,
+ 7
+]
+---
+
+[Test_Option/Struct_null/UnwrapDefault/Struct - 1]
+{
+ "Make": "Audi",
+ "Model": "A5"
+}
+---
